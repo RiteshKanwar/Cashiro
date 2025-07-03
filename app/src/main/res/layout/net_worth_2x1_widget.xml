@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_background_dark"
+    android:padding="12dp"
+    android:gravity="center"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Net Worth"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/widget_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$0.00"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="2dp" />
+
+    <TextView
+        android:id="@+id/widget_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 transactions"
+        android:textSize="10sp"
+        android:textColor="@android:color/darker_gray" />
+
+</LinearLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:id="@+id/widget_root"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:background="@drawable/widget_background_themed"-->
+<!--    android:padding="12dp"-->
+<!--    android:gravity="center"-->
+<!--    android:clickable="true"-->
+<!--    android:focusable="true">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/widget_title"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Net Worth"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginBottom="4dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/widget_amount"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="$0.00"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginBottom="2dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/widget_count"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0 transactions"-->
+<!--        android:textSize="10sp" />-->
+
+<!--</LinearLayout>-->
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:id="@+id/widget_root"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:background="@drawable/widget_background_medium"-->
+<!--    android:padding="12dp"-->
+<!--    android:gravity="center"-->
+<!--    android:clickable="true"-->
+<!--    android:focusable="true">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/widget_title"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Net Worth"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="?android:attr/textColorPrimary"-->
+<!--        android:layout_marginBottom="4dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/widget_amount"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="$0.00"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="?android:attr/textColorPrimary"-->
+<!--        android:layout_marginBottom="2dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/widget_count"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0 transactions"-->
+<!--        android:textSize="10sp"-->
+<!--        android:textColor="?android:attr/textColorSecondary" />-->
+
+<!--</LinearLayout>-->

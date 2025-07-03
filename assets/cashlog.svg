@@ -1,0 +1,108 @@
+<svg
+ version="1.1"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ x="0%" y="0%"
+ width="100%" height="100%"
+ viewBox="0 0 192.0 192.0"
+ enable-background="new 0 0 192.0 192.0"
+ xml:space="preserve">
+<defs>
+<filter id="glow1" x="-200%" y="-200%" width="600%" height="600%" >
+ <feOffset result="offOut" in="SourceGraphic" dx="2.0" dy="3.0" />
+ <feGaussianBlur result="blurOut" in="offOut" stdDeviation="4.0" />
+ <feFlood flood-color="#000000" flood-opacity="0.4" result="flood"/>
+ <feComposite in="flood" in2="blurOut" operator="in" result="blendOut0"/>
+ <feBlend in="SourceGraphic" in2="blendOut0" mode="normal" />
+</filter>
+
+<filter id="glow2" x="-200%" y="-200%" width="600%" height="600%" >
+ <feOffset result="offOut" in="SourceGraphic" dx="3.0" dy="6.0" />
+ <feGaussianBlur result="blurOut" in="offOut" stdDeviation="5.0" />
+ <feFlood flood-color="#000000" flood-opacity="0.35" result="flood"/>
+ <feComposite in="flood" in2="blurOut" operator="in" result="blendOut0"/>
+ <feBlend in="SourceGraphic" in2="blendOut0" mode="normal" />
+</filter>
+
+<filter id="glow3" x="-200%" y="-200%" width="600%" height="600%" >
+ <feOffset result="offOut" in="SourceGraphic" dx="2.5" dy="4.0" />
+ <feGaussianBlur result="blurOut" in="offOut" stdDeviation="6.0" />
+ <feFlood flood-color="#000000" flood-opacity="0.45" result="flood"/>
+ <feComposite in="flood" in2="blurOut" operator="in" result="blendOut0"/>
+ <feBlend in="SourceGraphic" in2="blendOut0" mode="normal" />
+</filter>
+
+<filter id="glow4" x="-200%" y="-200%" width="600%" height="600%" >
+ <feOffset result="offOut" in="SourceGraphic" dx="4.0" dy="7.0" />
+ <feGaussianBlur result="blurOut" in="offOut" stdDeviation="8.0" />
+ <feFlood flood-color="#000000" flood-opacity="0.5" result="flood"/>
+ <feComposite in="flood" in2="blurOut" operator="in" result="blendOut0"/>
+ <feBlend in="SourceGraphic" in2="blendOut0" mode="normal" />
+</filter>
+
+</defs>
+ <path
+  fill="#D27886"
+  
+  fill-opacity="1.000"
+  stroke-opacity="1.000"
+  fill-rule="nonzero"
+  stroke-width="0.0"
+  stroke-linejoin="round"
+  stroke-linecap="square"
+  d="M44.00,60.00L44.00,106.00A11.12 11.12 0 0 0 55.13,117.13L136.87,117.13A11.12 11.12 0 0 0 148.00,106.00L148.00,60.00A11.12 11.12 0 0 0 136.87,48.88L55.13,48.88A11.12 11.12 0 0 0 44.00,60.00z"/>
+ <path
+  fill="#000D51"
+  
+  fill-opacity="0.749"
+  stroke-opacity="1.000"
+  fill-rule="nonzero"
+  stroke-width="0.0"
+  filter="url(#glow1)"
+  stroke-linejoin="round"
+  stroke-linecap="square"
+  d="M56.00,64.00L56.00,102.67A4.00 4.00 0 0 0 60.00,106.67L132.00,106.67A4.00 4.00 0 0 0 136.00,102.67L136.00,64.00A4.00 4.00 0 0 0 132.00,60.00L60.00,60.00A4.00 4.00 0 0 0 56.00,64.00z"/>
+ <path
+  fill="#FFCA6C"
+  
+  fill-opacity="1.000"
+  stroke-opacity="1.000"
+  fill-rule="nonzero"
+  stroke-width="0.0"
+  filter="url(#glow2)"
+  stroke-linejoin="round"
+  stroke-linecap="square"
+  d="M52.00,72.00L52.00,108.00A4.00 4.00 0 0 0 56.00,112.00L136.00,112.00A4.00 4.00 0 0 0 140.00,108.00L140.00,72.00A4.00 4.00 0 0 0 136.00,68.00L56.00,68.00A4.00 4.00 0 0 0 52.00,72.00z"/>
+ <path
+  fill="#FFFFFF"
+  
+  fill-opacity="1.000"
+  stroke-opacity="1.000"
+  fill-rule="nonzero"
+  stroke-width="0.0"
+  filter="url(#glow3)"
+  stroke-linejoin="round"
+  stroke-linecap="square"
+  d="M48.00,80.00L48.00,118.67A4.00 4.00 0 0 0 52.00,122.67L140.00,122.67A4.00 4.00 0 0 0 144.00,118.67L144.00,80.00A4.00 4.00 0 0 0 140.00,76.00L52.00,76.00A4.00 4.00 0 0 0 48.00,80.00z"/>
+ <path
+  fill="#E5677F"
+  
+  fill-opacity="1.000"
+  stroke-opacity="1.000"
+  fill-rule="nonzero"
+  stroke-width="0.0"
+  filter="url(#glow4)"
+  stroke-linejoin="round"
+  stroke-linecap="square"
+  d="M44.00,97.63L44.00,130.13A13.00 13.00 0 0 0 57.00,143.13L135.00,143.13A13.00 13.00 0 0 0 148.00,130.13L148.00,97.63A13.00 13.00 0 0 0 135.00,84.63L57.00,84.63A13.00 13.00 0 0 0 44.00,97.63zM125.29,84.63L112.29,84.63C105.79,84.63,106.88,91.21,99.29,94.38Q96.04,95.11,92.79,94.38C85.21,91.21,86.29,84.63,79.79,84.63L66.79,84.63"/>
+<path
+  fill="#E5677F"
+  
+  fill-opacity="1.000"
+  stroke-opacity="1.000"
+  fill-rule="nonzero"
+  stroke-width="5.7599998"
+  stroke-linejoin="round"
+  stroke-linecap="round"
+  d="M56.00,128.00L56.00,104.00"/>
+</svg>

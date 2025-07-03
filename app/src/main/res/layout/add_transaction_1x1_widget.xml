@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_background_small_theme"
+    android:gravity="center"
+    android:clickable="true"
+    android:focusable="true">
+
+    <ImageView
+        android:id="@+id/widget_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/add_item_bulk"
+        android:contentDescription="Add Transaction"
+        android:tint="?android:attr/textColorPrimary" />
+
+</LinearLayout>

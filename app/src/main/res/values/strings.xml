@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Cashiro</string>
+
+    <string name="tile_add_transaction_label">Add Transaction</string>
+    <string name="tile_add_transaction_subtitle">Quick add</string>
+    <string name="tile_add_transaction_content_description">Tap to quickly add a new transaction</string>
+
+    <!-- Widget Descriptions -->
+    <string name="add_transaction_widget_description">Quickly add a new transaction</string>
+    <string name="transfer_transaction_widget_description">Quickly transfer money between accounts</string>
+
+    <!-- Small Widget Descriptions -->
+    <string name="small_add_transaction_widget_description">Quick add transaction shortcut</string>
+    <string name="small_transfer_widget_description">Quick transfer shortcut</string>
+
+    <!-- Financial Data Widget Descriptions -->
+    <string name="net_worth_widget_description">View your current net worth and transaction count</string>
+    <string name="quick_balance_widget_description">View balance with quick add button</string>
+    <string name="wide_balance_widget_description">Wide view of your balance with add button</string>
+    <string name="dashboard_widget_description">Complete dashboard showing net worth, income, and expenses</string>
+
+    <!-- Widget Labels -->
+    <string name="add_transaction_widget_label">Add Transaction</string>
+    <string name="transfer_transaction_widget_label">Transfer Transaction</string>
+    <string name="small_add_transaction_widget_label">Transaction Shortcut</string>
+    <string name="small_transfer_widget_label">Transfer Shortcut</string>
+    <string name="net_worth_widget_label">Net Worth</string>
+    <string name="quick_balance_widget_label">Quick Balance</string>
+    <string name="wide_balance_widget_label">Balance Wide</string>
+    <string name="dashboard_widget_label">Cashiro Dashboard</string>
+
+    <!-- Widget Labels -->
+    <string name="widget_net_worth">Net Worth</string>
+    <string name="widget_income">Income</string>
+    <string name="widget_expenses">Expenses</string>
+    <string name="widget_net_total">Net Total</string>
+    <string name="widget_add_transaction">Add Transaction</string>
+    <string name="widget_transfer_money">Transfer Money</string>
+    <string name="widget_add">Add</string>
+    <string name="widget_transfer">Transfer</string>
+
+    <!-- Sample data for previews (used in preview layouts) -->
+    <string name="preview_balance">$2,450.00</string>
+    <string name="preview_income">$3,200.00</string>
+    <string name="preview_expenses">$750.00</string>
+    <string name="preview_transaction_count">23 transactions</string>
+</resources>

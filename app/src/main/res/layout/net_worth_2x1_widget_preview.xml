@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_background_dark"
+    android:padding="12dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Net Worth"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$2,450.00"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FF93B887"
+        android:layout_marginBottom="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23 transactions"
+        android:textSize="10sp"
+        android:textColor="#C0C0C0" />
+
+</LinearLayout>
