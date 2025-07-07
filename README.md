@@ -132,12 +132,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Inspired by modern financial apps focusing on user privacy
 - Built with love using Jetpack Compose
 
-## 📞 Support
-
-If you like this project, please ⭐ star the repository and share it with others!
-
-For questions or support, please open an issue in the repository.
-
 ---
 
 <div align="center">
